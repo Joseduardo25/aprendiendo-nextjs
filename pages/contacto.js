@@ -18,5 +18,5 @@ export default function Home() {
     GetApi();
   }, []);
 
-  return <div className={styles.container}>{person && person.name}</div>;
+  return <div className={styles.container}>pagina de contacto</div>;
 }
