@@ -7,7 +7,7 @@ export default function Home() {
   const [person, setPerson] = useState(null);
   const GetApi = async () => {
     try {
-      const data = await fetch("http://localhost:3000/api/luis");
+      const data = await fetch("/api/luis");
       const response = await data.json();
       setPerson(response);
     } catch (error) {
